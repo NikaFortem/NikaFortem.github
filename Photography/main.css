@@ -1,0 +1,90 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+@font-face {
+	font-family: Lobster;
+	src: url(fonts/Lobster/Lobster-Regular.ttf);
+}
+html{
+	height:auto ;
+	font-size: 10px;
+	font-family: Lobster;
+
+}
+body{
+	height: 100%;
+	background-repeat: no-repeat;
+	background: linear-gradient(to bottom, #defcf9, #cadefc, #c3bef0, #c3bef0 );
+	background-size: auto ;
+	background-attachment: fixed;
+
+}
+main {
+	width: 70%;
+	margin: auto ;
+	padding: 0 50px 70px;
+	
+}
+.part{
+	width: 100%;
+}
+ img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: auto;
+	position: relative;
+}
+h1 {
+	font-size: 700%;
+	text-align: center;
+	padding: 40px 0;
+	letter-spacing: 2px;
+}
+h2 {
+	font-size: 500%;
+	text-align: center;
+	letter-spacing: 2px ;
+	padding: 30px 0;
+}
+.text {
+	font-size: 220%;
+	margin: 30px auto;
+	line-height: 1.65;
+	letter-spacing: 0.7px;
+}
+@font-face {
+	font-family: Lobster;
+	src: url(../fonts/Lobster/Lobster-regular.ttf);
+}
+footer {
+	height: 150px;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+}
+ 
+a {
+	text-decoration: none;
+	font-size: 140%;
+	color: #111;
+	letter-spacing: 0.7px;
+	position: relative;
+}
+a:after {
+	content: "";
+	position: absolute;
+	height: 1px;
+	width: 0;
+	left: 0;
+	bottom: 0;
+	transition: width 0.9s ease;
+	background: #111;
+}
+
+a:hover:after {
+	width: 100%;
+}
